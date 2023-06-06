@@ -1,0 +1,145 @@
+<html>
+<head>
+   <title>AccuWeather.com</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+   <LINK REL=StyleSheet HREF="/errorpages/adc.css" TYPE="text/css" MEDIA=screen>
+   <!-- setup standard JavaScript for all pages -->
+   <script>
+      var adc_partner="accuweather";
+   </script>
+   <script language="javascript" type="text/javascript" src="/errorpages/adc.js"></script>
+</head>
+
+<body bgcolor="#F2F0EC" vlink="#5987A0" link="#00476D" topmargin="0" marginheight="0" leftmargin="0" marginwidth="0">
+
+<table border="0" cellpadding="0" cellspacing="0" align=center>
+<tr>
+<td>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#00476D">
+	<tr>
+		<td align=center>
+		<table cellpadding="4" cellspacing="4" border=0" width=700>
+		<tr>
+		<td><font size="4" face="helvetica,arial" color="#ffffff"><b>ERROR 404...The page was not found.</b></font><BR><BR><font face="helvetica,arial" size="3" color="#ffffff">We're sorry for the inconvenience - it appears that the page you are trying to access has moved or no longer exists. Below is a list of the primary areas of our web site - please check out one of these sections to find what you are looking for.</font><BR></td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+			
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#5987A0">
+	<tr>
+		<td align=center>
+            		<table border="0" cellpadding="0" cellspacing="0" width="700" align=center bgcolor="#5987A0">
+					<tr>
+						<td width="2" align="center" valign="top" height="100%" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="2" height="1" border="0"></td>
+						<td width=230 align="center" valign="top"><BR><img src="http://vortex.accuweather.com/phoenix2/images/adc/headers/headers_error_adc.gif" border=0><BR><BR></td>
+						<td width="2" align="center" valign="top" height="100%" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="2" height="1" border="0"></td>
+						<td width=232 align="center" valign="top"><BR><img src="http://vortex.accuweather.com/phoenix2/images/adc/headers/headers_error_reg.gif" border=0><BR><BR></td>
+						<td width="2" align="center" valign="top" height="100%" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="2" height="1" border="0"></td>
+						<td width=230 align="center" valign="top"><BR><img src="http://vortex.accuweather.com/phoenix2/images/adc/headers/headers_error_ps.gif" border=0><BR><BR></td>
+						<td width="2" align="center" valign="top" height="100%" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="2" height="1" border="0"></td>
+					</tr>
+					</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="center" valign="top" width="100%" height="2" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="100%" height="2" border="0"></td>
+	</tr>
+</table>
+<!-- begin info 2 -->
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F0EC">
+	<tr>
+		<td align=center>
+					<table border="0" cellpadding="0" cellspacing="0" width="700" align=center bgcolor="#F2F0EC">
+					<tr>
+
+						<td width="2" align="center" valign="top" height="100%" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="2" height="1" border="0"></td>
+
+						<td width="230" align="left" valign="top" bgcolor="#F2F0EC">
+							<table border=0 align=center cellpadding=0 cellspacing=0 width=200>
+							<tr>
+							<td>
+							<center>
+							<form method="get" action="http://wwwa.accuweather.com/adcbin/public/us_getcity.asp" id=form1 name=form1>
+							<BR><a href="http://www.accuweather.com"><font face="helvetica,arial" size="3" color="#990000"><b>AccuWeather.com</b></font></a>
+							<BR>
+							<font face="helvetica,arial" size="2">Enter your location<BR>by zipcode or city, state</font><br>
+							<input type="text" name="thisZip" size="15" maxlength="30">
+							<input type="submit" value="Go" name="btnZip">
+							<input type="hidden" name="nav" value="home"><br>
+							<font style="text-decoration: none" face="helvetica,arial" size="2">[ <a href="http://wwwa.accuweather.com/adcbin/public/int_index.asp">click here for world forecasts</a> ]</font><BR><BR>
+							</form>
+							</center>
+							
+							
+							<ul><font size="2" face="helvetica,arial"><b>
+							<a href="http://wwwa.accuweather.com/adcbin/public/local_radar_menu.asp">Local Radar</a><BR><BR>
+							<a href="http://wwwa.accuweather.com/adcbin/public/severe_index.asp">Severe Storm Center</a><BR><BR>
+							<a href="http://wwwa.accuweather.com/adcbin/public/winter_index.asp">Winter Storm Center</a><BR><BR>
+							<a href="http://hurricane.accuweather.com/adcbin/hurricane/index.asp">Hurricane Center</a><BR><BR>
+							<a href="http://alert.accuweather.com">Alert</a><BR><BR>
+							<a href="http://desktop.accuweather.com">Desktop</a><BR><BR>
+							<a href="http://isight.accuweather.com">iSight</a><BR><BR>
+							<a href="http://alert.accuweather.com">Mobile</a><BR><BR>
+							<a href="http://wwwa.accuweather.com/adcbin/public/video_index.asp">Streaming</a><BR><BR>
+							</b></font></ul></td>
+							</tr>
+							</table>
+						</td>
+
+						<td width="2" align="center" valign="top" height="100%" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="2" height="1" border="0"></td>
+
+						<td width="232" align="left" valign="top" bgcolor="#F2F0EC">
+							<table border=0 align=center cellpadding=0 cellspacing=0 width=200>
+							<tr>
+							<td><ul><BR><font size="2" face="helvetica,arial"><b><a href="http://wwwa.accuweather.com/adcbin/public/login.asp ">Premium / Professional Login Page</a></b></font><BR><BR></ul></td>
+							</tr>
+							</table>
+						</td>
+
+						<td width="2" align="center" valign="top" height="100%" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="2" height="1" border="0"></td>
+
+						<td width="230" align="left" valign="top" bgcolor="#F2F0EC">
+							<table border=0 align=center cellpadding=0 cellspacing=0 width=200>
+							<tr>
+							<td><ul><BR><font size="2" face="helvetica,arial"><b>
+							<a href="http://www.accumall.com/">AccuMall</a><BR><BR>
+							<a href="http://ap.accuweather.com/">AccuNet&#8482;/AP&#174; Multimedia Archive</a><BR><BR>
+							<a href="http://wwwa.accuweather.com/adcbin/public/cobrand.asp">Cobrand with Us</a><BR><BR>
+							<a href="http://www.accuweather.com/wx/services/">Commercial Weather Services</a><BR><BR>
+							<a href="http://www.accuweather.com/wx/services/forensic_index.htm">Forensics</a><BR><BR>
+							<a href="http://www.accuweather.com/wx/services/awxnewmedia.htm">New Media</a><BR><BR>
+							<a href="http://www.accuweather.com/wx/services/newspapers.htm">Newspaper</a><BR><BR>
+							<a href="http://www.pilotweather.com/avibinf/intro.asp">PilotWeather&#8482;</a><BR><BR>
+							<a href="http://www.accuweather.com/wx/services/radiostation.htm">Radio</a><BR><BR>
+							<a href="http://www.accuweather.com/wx/services/tvstation.htm">Television</a><BR><BR>
+							<a href="http://www.accuweather.com/wx/weatherpager/index.html">WeatherPager&#8482;</a><BR><BR>
+							</b></font></ul></td>
+							</tr>
+							</table>
+						</td>
+
+						<td width="2" align="center" valign="top" height="100%" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="2" height="1" border="0"></td>
+
+					</tr>
+				</table>
+
+</td>
+</tr>
+	<tr>
+		<td align="center" valign="top" width="100%" height="2" bgcolor="#00476D"><img src="/errorpages/blank.gif" width="100%" height="2" border="0"></td>
+	</tr>
+</table>
+<!-- end info 2 -->
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
