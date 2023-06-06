@@ -1,0 +1,471 @@
+
+/* ::::: http://vortex.accuweather.com/adc2004/pub/css/2006/adc_base.css ::::: */
+
+@media all {
+  html { overflow: auto; }
+  a:link { text-decoration: none; }
+  a:visited { color: rgb(51, 102, 255); text-decoration: none; }
+  a:hover { color: rgb(255, 0, 0); text-decoration: underline; }
+  body { margin: 0px; background: rgb(255, 255, 255) url('bg_page.gif') repeat scroll 0% 0%; color: rgb(0, 0, 0); font-family: arial,helvetica; font-size: 11px; line-height: 14px; text-align: center; }
+  img { border: 0px none ; }
+  #page_container { margin: 0px auto; padding: 0px; overflow: hidden; display: block; width: 990px; text-align: left; }
+  .img_white_arrow_down { border-style: none; margin: 0px 2px; width: 9px; height: 5px; }
+  .nav_arrow { border-style: none; width: 11px; height: 6px; display: block; position: absolute; }
+  .imgIcon31x31 { border-style: none; margin: 5px 0px; width: 31px; height: 31px; }
+  .imgIcon31x24 { border-style: none; margin: 5px 0px; width: 31px; height: 24px; }
+  .largeHeadHolder { width: 990px; height: 145px; background-color: rgb(255, 255, 255); position: relative; background-repeat: no-repeat; }
+  #adcheader_cobrandTop { margin: 0pt; padding: 0pt; background-image: url('partner_bg.jpg'); background-repeat: repeat-x; text-align: center; width: 990px; }
+  #adcheader_cobrandTop * { margin-left: auto; margin-right: auto; text-align: center; }
+  .headFormLrgBox { width: 200px; height: 45px; position: absolute; left: 15px; top: 60px; }
+  .hdrGoBtn { border: 0px none ; margin-left: 5px; background-color: rgb(55, 135, 232); }
+  #locInputBig { color: rgb(153, 0, 0); margin-top: 5px; }
+  #headLinkLrg { position: absolute; top: 110px; left: 15px; color: rgb(255, 255, 255); }
+  a.headerLinks { color: rgb(255, 255, 255); font-weight: bold; }
+  a.headerLinksnb { color: rgb(255, 255, 255); }
+  .bigAdSpot { border: 0px none ; overflow: hidden; width: 728px; height: 90px; position: absolute; left: 245px; top: 50px; }
+  .bigAdSpot * { display: inline; position: absolute; left: 0px; top: 0px; }
+  #searchBox { float: right; margin-right: 5px; margin-top: 6px; }
+  #searchBox a { color: White; }
+  #accuDiv { overflow: hidden; width: 740px; height: 103px; background-color: rgb(255, 255, 255); text-align: right; visibility: hidden; position: absolute; left: 245px; top: 50px; z-index: 3; background-repeat: no-repeat; }
+  #accuAdDiv { width: 728px; height: 90px; text-align: right; position: absolute; left: 245px; top: 50px; z-index: 8; }
+  .navcobrand { font-size: 11px; color: rgb(0, 0, 255); text-decoration: underline; }
+  #adcheader_cobrandTextBar { margin: 0px; padding: 10px 0px 5px; width: 990px; height: 20px; background-color: rgb(242, 238, 230); }
+  #adcheader_cobrandMsg { width: 450px; float: left; font-size: 12px; font-weight: bold; color: rgb(0, 51, 102); text-indent: 5px; }
+  #adcheader_cobrandUrl { width: 450px; float: right; text-align: right; margin-right: 5px; }
+  #home_link { border-style: none; background-color: transparent; color: rgb(255, 255, 255); }
+  #topAdContainer { margin-bottom: 2px; width: 990px; height: 100px; background-color: rgb(255, 255, 255); }
+  #ad_728_head { width: 990px; float: left; height: 100px; }
+  #intCast_Container { border: 1px solid rgb(0, 0, 0); width: 235px; float: right; height: 110px; }
+  #intCast_head1 { width: 235px; height: 110px; float: right; background-color: rgb(0, 0, 162); color: rgb(0, 0, 0); font-size: 11px; font-family: Arial,helvetica; }
+  #intCast_head2 { width: 235px; height: 110px; float: right; background-color: rgb(0, 0, 162); color: rgb(0, 0, 0); margin-top: -110px; visibility: hidden; font-size: 11px; font-family: Arial,helvetica; }
+  #intCast_head3 { width: 235px; height: 110px; float: right; background-color: rgb(0, 0, 162); color: rgb(0, 0, 0); margin-top: -110px; visibility: hidden; font-size: 11px; font-family: Arial,helvetica; }
+  .intCastHeader { padding: 2px; background-color: rgb(162, 162, 242); font-size: 11px; }
+  .intCastCity { margin: 5px 5px 0px; float: left; text-align: left; color: White; }
+  .intCastHigh { margin: 5px 5px 0px; float: right; width: 38px; text-align: left; color: White; }
+  .intCastLow { margin: 5px 5px 0px; float: right; width: 38px; text-align: left; color: White; }
+  .intCastIconBox { margin: 1px 0px 0px; float: right; width: 28px; height: 30px; }
+  .intCastIcon { border-style: none; }
+  a.intcastLink:link, a.intcastLink:active, a.intcastLink:visited, a.intcastLink:hover { color: rgb(255, 255, 255); }
+  #brand_container { height: 75px; width: 990px; }
+  #brand_overlay { float: left; width: 450px; height: 50px; }
+  #img_logo_overlay { border-style: none; width: 450px; height: 50px; }
+  #brand_subscriptionlinks { padding: 50px 0px 5px; color: rgb(255, 255, 255); float: right; width: 500px; margin-right: 10px; text-align: right; }
+  a.brand_link:link, a.brand_link:active, a.brand_link:visited, a.brand_link:hover { margin: 0px 5px; font-size: 11px; font-weight: bold; color: rgb(255, 255, 255); }
+  #searchnav_container { border-top: 1px solid rgb(255, 255, 255); background: transparent url('bg_search_nav.gif') repeat-x scroll 0% 0%; position: relative; z-index: 50; height: 34px; width: 990px; color: rgb(255, 255, 255); font-weight: bold; font-size: 11px; }
+  #localwxform { margin: 6px 4px 0px 0px; }
+  #zipcode_form_input { border: 0px none ; padding: 2px 0px 0px 2px; color: rgb(153, 0, 0); font-family: arial,helvetica,verdana,sans-serif; font-size: 11px; font-weight: bold; text-indent: 2px; height: 18px; width: 135px; vertical-align: middle; }
+  #zipcode_form_button { color: rgb(51, 0, 0); font-family: arial,helvetica,verdana,sans-serif; font-size: 10px; font-weight: bold; width: 30px; vertical-align: middle; }
+  a.searchnav_link:link, a.searchnav_link:active, a.searchnav_link:visited, a.searchnav_link:hover { font-weight: bold; color: rgb(255, 255, 255); }
+  #searchnav_airport { margin-left: 45px; }
+  #searchnav_radar { margin-left: 45px; }
+  #searchnav_world2 { margin-left: 40px; }
+  #searchnav_world { margin-left: 90px; }
+  #navigation_container { border-top: 1px solid rgb(255, 255, 255); position: relative; z-index: 7; background-image: url('nav_inactive.jpg'); background-repeat: repeat-x; height: 26px; width: 990px; text-align: left; }
+  #navbar_feature { width: 250px; float: left; margin-top: 6px; font-family: arial,helvetica,verdana,sans-serif; font-size: 11px; font-weight: bold; color: rgb(255, 255, 255); text-transform: uppercase; }
+  #nav_link_featured { color: rgb(255, 249, 88); margin-left: 5px; font-weight: bold; }
+  #popupLookupBox { border: 1px solid rgb(0, 0, 0); background: rgb(242, 242, 242) none repeat scroll 0% 0%; width: 250px; height: 75px; color: rgb(0, 0, 0); visibility: hidden; position: absolute; top: 15px; left: -1px; z-index: 10001; }
+  #popupLookupBox2 { border: 1px solid rgb(0, 0, 0); background: rgb(242, 242, 242) none repeat scroll 0% 0%; width: 250px; height: 75px; color: rgb(0, 0, 0); visibility: hidden; position: absolute; top: 15px; left: -1px; z-index: 10001; }
+  #popupLookupBox3 { border: 1px solid rgb(0, 0, 0); background: rgb(242, 242, 242) none repeat scroll 0% 0%; width: 250px; height: 75px; color: rgb(0, 0, 0); visibility: hidden; position: absolute; top: 15px; left: -1px; z-index: 10001; }
+  #popupLookupBox1 { border: 1px solid rgb(0, 0, 0); background: rgb(242, 242, 242) none repeat scroll 0% 0%; width: 250px; height: 75px; color: rgb(0, 0, 0); visibility: hidden; position: absolute; top: 15px; left: -170px; z-index: 10001; }
+  #content_container_2colForum { padding: 5px 0px 20px; background: rgb(255, 255, 255) url('bg_page_dividers_640160.gif') repeat-y scroll 0% 0%; overflow: hidden; width: 990px; }
+  #content_container_3col160 { padding: 5px 0px 20px; background: rgb(255, 255, 255) url('bg_page_dividers_640160.gif') repeat-y scroll 0% 0%; overflow: hidden; width: 990px; }
+  #content_container_3col { padding: 5px 0px 20px; background: rgb(255, 255, 255) url('bg_page_dividers.gif') repeat-y scroll 0% 0%; overflow: hidden; width: 990px; }
+  #content_container_3colblog { padding: 5px 0px 20px; background: rgb(255, 255, 255) url('bg_page_dividers_blog.gif') repeat-y scroll 0% 0%; overflow: hidden; width: 990px; }
+  #content_container_3colblog { padding: 5px 0px 20px; background: rgb(255, 255, 255) url('bg_page_dividers_blog.gif') repeat-y scroll 0% 0%; overflow: hidden; width: 990px; }
+  #content_container_2col660 { padding: 5px 0px 20px; background: rgb(255, 255, 255) url('bg_page_dividers_640300.gif') repeat-y scroll 0% 0%; overflow-x: hidden; width: 990px; }
+  #borderRemove { background: rgb(255, 255, 255) url(http://vortex.accuweather.com/adc2004/pub/images/2006/bg_page_enddividers.gif) repeat-y scroll 0% 0%; overflow: hidden; width: 990px; height: 10px; }
+  #content_container_2col660 { padding: 5px 0px 20px; background: rgb(255, 255, 255) url(http://vortex.accuweather.com/adc2004/pub/images/2006/bg_page_dividers_640300.gif) repeat-y scroll 0% 0%; overflow: hidden; width: 990px; }
+  #content_container_1col { padding: 5px 0px 20px; background: rgb(255, 255, 255) url(http://vortex.accuweather.com/adc2004/pub/images/2006/bg1col.gif) repeat-y scroll 0% 0%; overflow: hidden; width: 990px; }
+  #content_column_205 { margin: 0px 10px 5px 5px; overflow: hidden; width: 205px; float: left; }
+  #content_column_215 { margin: 0px 5px 5px; overflow: hidden; width: 215px; float: left; }
+  #content_column_435 { margin: 0px 5px 5px 10px; overflow: hidden; width: 435px; float: left; }
+  #content_column_575 { margin: 0px 5px 5px 0px; overflow: hidden; width: 575px; float: left; }
+  #content_column_660 { margin: 0px 5px 5px; overflow: hidden; width: 660px; float: left; }
+  #content_column_790 { margin: 0px 5px 5px; overflow: hidden; width: 790px; float: left; }
+  #content_column_965 { margin: 0px 5px 5px; overflow: hidden; width: 965px; }
+  #content_column_160right { margin: 0px 5px 5px; width: 160px; float: right; }
+  #content_column_300right { margin: 0px 5px 5px; width: 300px; float: right; }
+  .legaltext { font-size: 8pt; font-weight: bold; color: rgb(0, 0, 0); text-decoration: none; }
+  .textxxxlarge { font-size: 22px; font-weight: normal; }
+  .textxxlarge { font-size: 20px; font-weight: normal; }
+  .textxlarge { font-size: 18px; font-weight: normal; }
+  .textlarge { font-size: 16px; font-weight: normal; }
+  .textmed { font-size: 14px; font-weight: normal; }
+  .textbold { font-size: 12px; font-weight: bold; }
+  .textsmall { font-size: 11px; font-weight: normal; }
+  .textxsmall { font-size: 10px; font-weight: normal; }
+  .textxxsmall { font-size: 8px; font-weight: normal; }
+  .textxxxsmall { font-size: 6px; font-weight: normal; }
+  .textxxxlargebold { font-size: 22px; font-weight: bold; }
+  .textxxlargebold { font-size: 20px; font-weight: bold; }
+  .textxlargebold { font-size: 18px; font-weight: bold; }
+  .textlargebold { font-size: 16px; font-weight: bold; }
+  .textmedbold { font-size: 14px; font-weight: bold; }
+  .textsmallbold { font-size: 11px; font-weight: bold; }
+  .textsmallitalic { font-size: 11px; font-style: italic; }
+  .textxsmallbold { font-size: 10px; font-weight: bold; }
+  .textxxsmallbold { font-size: 8px; font-weight: bold; }
+  .textxxxsmallbold { font-size: 6px; font-weight: bold; }
+  .textxsmallred { font-size: 10px; color: rgb(153, 0, 0); }
+  .textxsmallblue { font-size: 10px; color: rgb(0, 0, 153); }
+  .textxsmallgreen { font-size: 10px; color: rgb(0, 102, 0); }
+  .textsmallred { font-size: 11px; color: rgb(153, 0, 0); }
+  .textsmallblue { font-size: 11px; color: rgb(0, 0, 153); }
+  .textsmallwhite { font-size: 11px; color: rgb(255, 255, 255); }
+  .textsmallboldred { font-size: 11px; font-weight: bold; color: rgb(153, 0, 0); }
+  .textsmallboldblue { font-size: 11px; font-weight: bold; color: rgb(0, 0, 153); }
+  .textsmallboldwhite { font-size: 11px; font-weight: bold; color: rgb(255, 255, 255); }
+  .textmedred { font-size: 14px; color: rgb(153, 0, 0); }
+  .textmedblue { font-size: 14px; color: rgb(0, 0, 153); }
+  .textmedwhite { font-size: 14px; color: rgb(255, 255, 255); }
+  .textmedboldred { font-size: 14px; font-weight: bold; color: rgb(153, 0, 0); }
+  .textmedboldblue { font-size: 14px; font-weight: bold; color: rgb(0, 0, 153); }
+  .textmedboldwhite { font-size: 14px; font-weight: bold; color: rgb(255, 255, 255); }
+  .textlargered { font-size: 16px; color: rgb(153, 0, 0); }
+  .textlargeblue { font-size: 16px; color: rgb(0, 0, 153); }
+  .textlargewhite { font-size: 16px; color: rgb(255, 255, 255); }
+  .textlargeboldred { font-size: 16px; font-weight: bold; color: rgb(153, 0, 0); }
+  .textlargeboldblue { font-size: 16px; font-weight: bold; color: rgb(0, 0, 153); }
+  .textlargeboldwhite { font-size: 16px; font-weight: bold; color: rgb(255, 255, 255); }
+  .promotextsmall { font-size: 10px; color: rgb(201, 110, 0); }
+  .promotextsmallbold { font-size: 10px; font-weight: bold; color: rgb(201, 110, 0); }
+  .headlinetext { font-family: arial,helvetica; font-size: 10px; line-height: 12px; font-weight: bold; }
+  .promoheadline { color: rgb(201, 110, 0); font-family: arial,helvetica; font-size: 11px; line-height: 12px; margin-bottom: 5px; display: block; font-weight: bold; }
+  .form { margin: 10px 5px 5px 10px; }
+  .ad_728 { background-color: rgb(255, 255, 255); width: 990px; }
+  .ad_300 { background-color: rgb(255, 255, 255); width: 300px; text-align: right; }
+  .ad_728_img { padding-left: 2px; padding-top: 4px; width: 729px; height: 90px; }
+  .ad_728 { margin: 4px 0px 0px 6px; float: left; padding-left: 2px; padding-top: 4px; width: 990px; height: 90px; }
+  .ad_300_img { width: 70px; height: 5px; }
+  #ad_728_foot { padding: 15px 0px; background: rgb(255, 255, 255) url(http://vortex.accuweather.com/adc2004/pub/images/2006/rule_horz.gif) repeat-x scroll center top; clear: both; }
+  #foot_header_bar { border-right: 1px solid rgb(93, 93, 93); border-bottom: 1px solid rgb(93, 93, 93); background: rgb(190, 190, 190) none repeat scroll 0% 0%; height: 24px; width: 990px; }
+  .foot_header_text { font-size: 12px; font-weight: bold; padding-left: 10px; padding-top: 6px; }
+  #directory_container { overflow: hidden; background-color: rgb(234, 234, 234); padding-top: 10px; width: 990px; }
+  .directory_column { background: transparent url(http://vortex.accuweather.com/adc2004/pub/images/2006/rule_vert.gif) repeat-y scroll 0% 0%; float: left; height: 180px; left: 0px; margin-bottom: 10px; padding-left: 10px; padding-right: 10px; }
+  #directory_column_first { background-image: none; }
+  .directory_head { font-size: 12px; font-weight: bold; }
+  .directory_text { font-size: 9px; line-height: 13px; }
+  a.foot_nav_link:link, a.foot_nav_link:active, a.foot_nav_link:visited, a.foot_nav_link:hover { display: block; }
+  #bottom_nav { border-top: 1px solid rgb(255, 255, 255); background: transparent url(http://vortex.accuweather.com/adc2004/pub/images/2006/bg_bottom_nav.gif) repeat-x scroll 0% 0%; clear: both; height: 26px; padding-top: 2px; width: 990px; text-indent: 10px; }
+  a.bottom_nav_link:link, a.bottom_nav_link:active, a.bottom_nav_link:visited, a.bottom_nav_link:hover { margin: 0px 35px 0px 0px; font-size: 11px; font-weight: bold; color: rgb(255, 255, 255); }
+  #copyright_container { border-top: 1px solid rgb(255, 255, 255); background: rgb(229, 229, 229) none repeat scroll 0% 0%; height: 100px; width: 990px; }
+  #copyright_left { margin: 10px; background: rgb(229, 229, 229) none repeat scroll 0% 0%; float: left; }
+  #copyright_right { margin: 10px; float: right; font-size: 11px; font-weight: bold; }
+  .img_copyright_button { border-style: none; margin-right: 5px; }
+  #button_rss_3D { width: 24px; height: 11px; }
+  #button_podcast_3D { width: 54px; height: 11px; }
+  #button_blog_3D { width: 35px; height: 11px; }
+  #text_copyright_awx { margin: 0px; font-size: 11px; font-weight: bold; }
+  #text_copyright { margin: 0px; font-size: 11px; }
+  #text_subscriber { margin: 0px 0px 4px; font-size: 11px; font-weight: bold; }
+  #text_nonmember { margin: 0px 0px 4px; font-size: 11px; font-weight: bold; }
+  #links_rss_pod_blog { margin: 0px; font-size: 11px; font-weight: bold; }
+  #location_matches { padding-left: 5px; }
+  #airport_matches { padding-left: 5px; }
+  #newloc { margin-top: 10px; }
+  #newlocbox { padding-left: 5px; }
+  #intloc { margin-top: 10px; }
+  #intlocbox { padding-left: 5px; }
+  #canloc { margin-top: 10px; }
+  #canlocbox { padding-left: 5px; }
+  #adcSearchForm { display: inline; }
+  #search_form_input { border: 0px none ; padding: 2px 0px 0px 2px; color: rgb(153, 0, 0); font-family: arial,helvetica,verdana,sans-serif; font-size: 11px; font-weight: bold; text-indent: 2px; height: 18px; width: 135px; vertical-align: middle; }
+  #search_form_button { color: rgb(51, 0, 0); font-family: arial,helvetica,verdana,sans-serif; font-size: 10px; font-weight: bold; width: 30px; vertical-align: middle; }
+  #rssSocialNewsBox { border-style: solid; border-color: rgb(0, 0, 0); border-width: 0px 1px 1px; visibility: hidden; display: none; position: absolute; left: 315px; top: 21px; z-index: 20; background-color: rgb(255, 255, 255); width: 100px; height: 140px; }
+  #rssSocialNewsTitle { position: absolute; left: 315px; top: 4px; font-weight: normal; z-index: 10; background-color: rgb(249, 249, 175); width: 102px; height: 16px; }
+  #rssSocialNewsLink { color: rgb(0, 0, 0); text-decoration: none; font-weight: bold; text-indent: 0px; }
+  #rssSocialNewsCont { border: 1px solid rgb(0, 0, 0); width: 10px; height: 10px; text-indent: 0px; line-height: 10px; text-align: center; float: left; margin-top: 2px; margin-bottom: 2px; margin-left: 2px; }
+  #rssSocialNewsHead { float: left; margin-left: 2px; margin-top: 2px; text-indent: 0px; }
+  #rssSocialNewsButBox { border-top: 1px solid rgb(153, 153, 153); font-size: 8px; text-indent: 0px; }
+  .socialLinkImgBox { margin: 5px 0px 0px 5px; }
+}
+
+/* ::::: http://vortex.accuweather.com/adc2004/pub/css/2006/adc_general.css ::::: */
+
+b { font-weight: bold; }
+strong { font-weight: bolder; }
+#content_box_headlines { overflow: auto; height: 150px; position: absolute; left: 0px; top: 54px; display: block; z-index: 1; }
+.liHeadlines { line-height: 12px; margin-bottom: 2px; }
+#content_box_blogs { overflow: auto; height: 150px; position: absolute; left: 0px; top: 54px; display: none; z-index: 1; }
+#navBlogPointer { width: 11px; height: 6px; position: absolute; top: 48px; left: 46px; }
+a.news_headline:link, a.news_headline:active, a.news_headline:visited { font-size: 11px; line-height: 15px; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); }
+a.news_headline:hover { font-size: 11px; line-height: 15px; font-weight: bold; color: rgb(255, 0, 0); text-decoration: underline; }
+#headline_box { float: left; width: 100px; text-align: center; color: rgb(255, 255, 255); }
+#blog_box { float: right; width: 100px; text-align: center; color: rgb(255, 255, 255); }
+#content_headlines_list { margin-left: 10px; padding-left: 10px; margin-top: 3px; }
+#content_blog_list { margin-left: 10px; padding-left: 10px; margin-top: 3px; }
+#content_blog_list2 { margin-left: 10px; padding-left: 10px; }
+.newsBar { color: rgb(255, 255, 255); display: block; float: left; height: 17px; padding-top: 2px; text-align: center; font-size: 11px; font-weight: bold; }
+.content_box_200 { width: 205px; position: relative; z-index: 1; }
+.content_box_200header { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 204px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_200body { border: 1px solid rgb(102, 102, 102); width: 203px; background-color: rgb(255, 255, 255); }
+.content_box_200bluenavbar { border-style: solid; border-color: rgb(255, 255, 255) rgb(177, 176, 171); border-width: 1px; background: transparent url('bg_blue_nav.gif') repeat scroll 0% 0%; height: 20px; width: 203px; }
+.content_box_300 { width: 300px; }
+.content_box_300header { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 299px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_300body { width: 298px; background-color: rgb(255, 255, 255); }
+.content_box_435 { width: 435px; position: relative; }
+.content_box_435header { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 434px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_435body { border: 1px solid rgb(102, 102, 102); width: 433px; background-color: rgb(255, 255, 255); }
+.content_box_435bluenavbar { border-style: solid; border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153); border-width: 1px; background: transparent url('bg_blue_nav.gif') repeat scroll 0% 0%; height: 18px; width: 433px; }
+.content_box_435rednavbar { border-style: solid; border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153); border-width: 1px; background: transparent url('bg_red_nav.gif') repeat scroll 0% 0%; height: 18px; width: 433px; }
+.content_box_575 { width: 575px; position: relative; }
+.content_box_575header { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 574px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_575body { border: 1px solid rgb(102, 102, 102); width: 573px; background-color: rgb(255, 255, 255); }
+.content_box_575bluenavbar { border-style: solid; border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153); border-width: 1px; background: transparent url('bg_blue_nav.gif') repeat scroll 0% 0%; height: 18px; width: 433px; }
+.content_box_660 { width: 660px; position: relative; }
+.content_box_660header { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 659px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_660body { border: 1px solid rgb(102, 102, 102); width: 658px; background-color: rgb(255, 255, 255); }
+.content_box_660bluenavbar { border-style: solid; border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153); border-width: 1px; background: transparent url('bg_blue_nav.gif') repeat scroll 0% 0%; height: 18px; width: 658px; }
+.content_box_660_prem_top { width: 660px; position: relative; }
+.content_box_660header_prem_top { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 659px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_660body_prem_top { border: 1px solid rgb(102, 102, 102); width: 658px; height: 500px; background-color: rgb(241, 240, 236); }
+.content_box_660bluenavbar_prem_top { border-style: solid; border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153); border-width: 1px; background: transparent url('bg_blue_nav.gif') repeat scroll 0% 0%; height: 18px; width: 658px; }
+.content_box_660_prem_bottom { width: 660px; position: relative; }
+.content_box_660header_prem_bottom { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 659px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_660body_prem_bottom { border: 1px solid rgb(102, 102, 102); width: 658px; height: 715px; background-color: rgb(241, 240, 236); }
+.content_box_660bluenavbar_prem_bottom { border-style: solid; border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153); border-width: 1px; background: transparent url('bg_blue_nav.gif') repeat scroll 0% 0%; height: 18px; width: 658px; }
+.content_box_660_prem_login { width: 660px; position: relative; }
+.content_box_660header_prem_login { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 659px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_660body_prem_login { border: 1px solid rgb(102, 102, 102); width: 658px; height: 350px; background-color: rgb(241, 240, 236); }
+.content_box_660bluenavbar_prem_login { border-style: solid; border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153); border-width: 1px; background: transparent url('bg_blue_nav.gif') repeat scroll 0% 0%; height: 18px; width: 658px; }
+.content_box_660_prem_details { width: 660px; position: relative; }
+.content_box_660header_prem_details { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 659px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+.content_box_660body_prem_details { border: 1px solid rgb(102, 102, 102); width: 658px; height: 885px; background-color: rgb(241, 240, 236); }
+.content_box_660bluenavbar_prem_details { border-style: solid; border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153); border-width: 1px; background: transparent url('bg_blue_nav.gif') repeat scroll 0% 0%; height: 18px; width: 658px; }
+.content_box_header_text { color: rgb(42, 42, 42); font-size: 16px; font-weight: bold; text-indent: 5px; padding-top: 5px; }
+.content_box_contents { margin: 5px; }
+.content_box_bodytext { padding: 5px 5px 10px; font-size: 11px; }
+.bottom_content_links { margin: 20px 0px; width: 100%; text-align: center; }
+.alertbar { background: rgb(150, 0, 0) url('bg_alert_nav.gif') repeat scroll 0% 0%; height: 24px; width: 435px; text-align: center; }
+a.alertbar_text:link, a.alertbar_text:active, a.alertbar_text:visited, a.alertbar_text:hover { display: block; color: rgb(255, 255, 255); font-size: 11px; font-weight: bold; padding-top: 4px; }
+a.content_box_bodylink:link, a.content_box_bodylink:active, a.content_box_bodylink:visited, a.content_box_bodylink:hover { margin: 5px; display: block; font-size: 11px; font-weight: bold; }
+a.content_box_bodylinkinline:link, a.content_box_bodylinkinline:active, a.content_box_bodylinkinline:visited, a.content_box_bodylinkinline:hover { font-size: 11px; }
+a.content_box_bluenavbutton:link, a.content_box_bluenavbutton:visited, a.content_box_bluenavbutton:hover { color: rgb(255, 255, 255); display: block; float: left; height: 17px; padding-top: 2px; text-align: center; font-size: 11px; font-weight: bold; }
+a.content_box_greennavbutton:link, a.content_box_greennavbutton:visited, a.content_box_greennavbutton:hover { background: transparent url('bg_green_nav.gif') repeat scroll 0% 0%; color: rgb(255, 255, 255); display: block; float: left; height: 17px; padding-top: 2px; text-align: center; font-size: 11px; font-weight: bold; }
+a.content_box_rednavbutton:link, a.content_box_rednavbutton:visited, a.content_box_rednavbutton:hover { background: transparent url('bg_red_nav.gif') repeat scroll 0% 0%; color: rgb(255, 255, 255); display: block; float: left; height: 17px; padding-top: 2px; text-align: center; font-size: 11px; font-weight: bold; }
+.imgRelatedItemThumb { border-style: none; width: 100px; height: 75px; }
+.photowidget1_inner_wrapper { margin: 0px 5px 5px; font-size: 11px; font-weight: normal; text-align: left; }
+.photowidget1_dynamic_container { float: left; width: 78px; margin-right: 10px; }
+.photowidget1_img { border: 1px solid rgb(0, 0, 0); width: 75px; height: 75px; }
+.photowidget1_caption { overflow: hidden; width: 100%; font-size: 9px; font-style: italic; font-weight: normal; text-align: center; }
+.photowidget2_body { border-style: solid; border-color: rgb(177, 176, 171); border-width: 0px 1px 1px; height: 125px; padding-top: 5px; background-color: rgb(255, 255, 255); }
+.photowidget2_panel_a { float: left; width: 101px; }
+.photowidget2_panel_b { float: left; width: 16px; }
+.photowidget2_panel_c { float: left; width: 21px; }
+.photowidget2_panel_d { float: left; width: 178px; height: 115px; text-align: left; }
+.photowidget2_subtitle { margin-bottom: 5px; font-size: 12px; font-weight: bold; }
+.photowidget2_paragraph { margin-bottom: 0px; font-size: 11px; line-height: 14px; }
+.photowidget2_link { font-size: 11px; }
+.photowidget2_img_surround { width: 101px; float: left; text-align: center; }
+.photowidget2_img { border: 1px solid rgb(0, 0, 0); }
+.photowidget2_caption { overflow: hidden; float: left; width: 101px; height: 42px; text-align: center; line-height: 14px; }
+.photowidget2_user { font-size: 10px; font-style: italic; }
+.photowidget2_title { font-size: 11px; font-weight: bold; }
+.photowidget3_dynamic_container { border-style: solid; border-color: rgb(177, 176, 171); border-width: 0px 1px 1px; padding: 10px 0px 5px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; float: left; text-align: center; }
+.photowidget3_surround { float: left; }
+.photowidget3_surr_photo { width: 144px; float: left; text-align: center; }
+.photowidget3_surr_user { padding: 3px 0px; overflow: hidden; width: 124px; float: left; text-align: center; font-size: 10px; font-style: italic; line-height: 100%; }
+.photowidget3_surr_title { overflow: hidden; width: 124px; float: left; text-align: center; font-size: 11px; font-weight: bold; line-height: 100%; }
+.photowidget3_img { border: 1px solid rgb(0, 0, 0); }
+.photowidget3_links { font-size: 11px; font-weight: bold; text-align: center; }
+.photowidget3_spacer10 { background: transparent none repeat scroll 0% 0%; width: 10px; float: left; line-height: 100%; }
+.photowidget3_spacer20 { background: transparent none repeat scroll 0% 0%; width: 20px; float: left; line-height: 100%; }
+#ADCvideoComponent { width: 300px; }
+#adcvcPlayer { width: 300px; height: 289px; background-color: rgb(14, 10, 159); color: rgb(255, 255, 255); text-align: center; }
+#adcvcMinicatalog { width: 300px; height: 125px; background-color: rgb(14, 10, 150); }
+#adcvcMedialists { border: 1px solid rgb(255, 255, 255); overflow: hidden; width: 290px; height: 95px; margin-left: 4px; position: relative; }
+.adcvcMedia { overflow: hidden; width: 290px; height: 95px; position: absolute; top: 0px; left: 0px; display: none; }
+.adcvcMediaActive { overflow: auto; width: 290px; height: 95px; position: absolute; top: 0px; left: 0px; display: block; }
+a.medialink:link, a.medialink:active, a.medialink:visited { border-style: solid; border-color: rgb(85, 83, 170); border-width: 0px 0px 1px; padding: 2px 0px; display: block; width: 260px; margin-left: 7px; text-indent: 5px; font-size: 11px; font-weight: bold; color: rgb(255, 255, 255); text-decoration: none; background-color: transparent; }
+a.medialink:hover { background-color: rgb(85, 83, 170); }
+#adcvcTabbar { padding: 4px 0px 0px 4px; position: relative; }
+.navtab1 { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_silver_new.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 34px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; cursor: pointer; }
+.navtab2 { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_silver_popular.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 77px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; cursor: pointer; }
+.navtab3 { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_silver_uscities.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 61px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; cursor: pointer; }
+.navtab4 { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_silver_fun.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 32px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; cursor: pointer; }
+.navtab5 { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_silver_allvideo.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 61px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; cursor: pointer; }
+.navtab1Active { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_yellow_new.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 34px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; }
+.navtab2Active { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_yellow_popular.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 77px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; }
+.navtab3Active { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_yellow_uscities.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 61px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; }
+.navtab4Active { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_yellow_fun.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 32px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; }
+.navtab5Active { margin: 0px 2px 0px 0px; padding: 0px; background: transparent url('tab_yellow_allvideo.jpg') no-repeat scroll left top; float: left; line-height: 20px; width: 61px; height: 20px; text-align: center; color: rgb(0, 0, 0); font-size: 10px; font-weight: bold; text-decoration: none; }
+.showcase { border-style: none; border-width: 0px; width: 88px; height: 31px; margin-left: 20px; }
+.city_heading { font-size: 18px; font-weight: bold; color: rgb(0, 0, 0); line-height: 22px; }
+.forecast_titlebar { margin-bottom: 5px; }
+.fcst_date { color: rgb(127, 127, 127); font-size: 13px; line-height: 15px; font-weight: bold; float: left; width: 280px; }
+.lifestylewx { float: right; width: 140px; z-index: 5; }
+.forecastButtons { margin-top: 10px; margin-bottom: 10px; }
+.bookmarkicon { border-style: none; border-width: 0px; width: 82px; height: 33px; display: block; margin-right: 10px; float: left; }
+.metricicon { border-style: none; border-width: 0px; width: 75px; height: 33px; margin-right: 15px; display: block; float: left; }
+.englishicon { border-style: none; border-width: 0px; width: 88px; height: 33px; margin-right: 15px; display: block; float: left; }
+.send2friendicon { border-style: none; border-width: 0px; width: 82px; height: 33px; display: block; float: left; }
+.alertsIcon { border-style: none; border-width: 0px; width: 75px; height: 33px; display: block; float: left; }
+.city_title { margin-bottom: 5px; }
+.lifestyleimg { width: 120px; height: 9px; display: block; margin-bottom: 5px; }
+#ADCvideoEspBox { height: 27px; width: 300px; margin-top: 1px; background-color: rgb(0, 0, 128); padding-top: 2px; }
+#ADCvideoEspInsideBox { border: 1px solid rgb(255, 255, 255); width: 289px; height: 21px; line-height: 21px; background-color: rgb(51, 51, 204); margin-left: 5px; text-indent: 10px; }
+#ADCvideoEspLink { color: rgb(255, 255, 255); text-decoration: none; }
+
+/* ::::: http://vortex.accuweather.com/adc2004/pub/css/2006/adc_ads.css ::::: */
+
+@media all {
+  .content_box_640 { width: 640px; }
+  .content_box_860 { width: 980px; }
+  .content_box_640header { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 640px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+  .content_box_860header { border-style: solid; border-color: rgb(102, 102, 102); border-width: 0px 1px 1px 0px; width: 980px; height: 25px; background-color: rgb(190, 190, 190); font-family: arial,verdana,helvetica,sans-serif; font-size: 11pt; font-weight: bold; text-indent: 10px; }
+  .content_box_640body { width: 639px; background-color: rgb(255, 255, 255); }
+  .content_box_860body { width: 979px; background-color: rgb(255, 255, 255); }
+  #content_box_640body_adsbygoogle { border: 1px solid rgb(102, 102, 102); background-color: rgb(241, 240, 236); }
+  #content_box_860body_adsbygoogle { border: 1px solid rgb(102, 102, 102); background-color: rgb(241, 240, 236); }
+  #content_box_300body_adsbygoogle { border: 1px solid rgb(102, 102, 102); background-color: rgb(241, 240, 236); }
+  #content_box_300body_adsspecialoffers { border: 1px solid rgb(102, 102, 102); background-color: rgb(255, 255, 255); }
+  #content_box_300body_sponsoredoffers { border: 1px solid rgb(102, 102, 102); background-color: rgb(255, 255, 255); }
+  .content_box_googletextadblock { margin: 5px; font-size: 11px; font-weight: bold; line-height: 12px; }
+  .content_box_sponsoredoffer_bodytext { margin: 5px; font-size: 11px; font-family: arial; font-weight: normal; line-height: 14px; padding-bottom: 5px; }
+  .sponsoredoffer_text { float: left; width: 140px; padding-bottom: 5px; }
+  .sponsoredoffer_text_120 { float: left; width: 130px; padding-bottom: 5px; }
+  .sponsoredoffer_text_135 { float: left; width: 135px; padding-bottom: 5px; }
+  .content_box_sponsoredoffer { margin: 5px; padding-bottom: 5px; }
+  a.google_textad:link, a.google_textad:active, a.google_textad:visited { font-size: 11px; font-weight: bold; line-height: 12px; display: block; }
+  a.google_textad:hover { color: rgb(234, 110, 0); }
+  a.google_ref:link, a.google_ref:active, a.google_ref:visited, a.google_ref:hover { color: rgb(53, 134, 207); font-weight: bold; line-height: 12px; text-decoration: none; display: block; }
+  a.specialoffer_textad:link, a.specialoffer_textad:active, a.specialoffer_textad:visited { margin: 10px; font-weight: bold; font-size: 11px; line-height: 12px; display: block; }
+  a.specialoffer_textad:hover { color: rgb(234, 110, 0); }
+  a.content_box_sponsoredad_textad:link, a.content_box_sponsoredad_textad:active, a.content_box_sponsoredad_textad:visited { margin: 5px; float: left; font-size: 11px; font-family: arial; font-weight: bold; line-height: 12px; display: block; }
+  a.content_box_sponsoredad_textad:hover { color: rgb(234, 110, 0); }
+  a.content_box_sponsoredadinline:link, a.content_box_sponsoredadinline:active, a.content_box_sponsoredadinline:visited { font-size: 11px; font-weight: bold; }
+  a.content_box_sponsoredadinline:hover { color: rgb(234, 110, 0); }
+  .static_text { margin: 5px; font-family: arial,helvetica,verdana,sans-serif; padding-bottom: 0px; font-weight: bold; color: rgb(0, 0, 255); }
+  .img_sponsor_left { float: left; margin-right: 5px; }
+  #img_sponsor_offer1 { width: 110px; height: 60px; }
+  #img_sponsor_offer_hd { border: 1px solid rgb(102, 102, 102); width: 110px; height: 60px; }
+  #img_sponsor_offer_120_border { border: 1px solid rgb(102, 102, 102); width: 120px; height: 60px; }
+  #img_sponsor_offer_dell { width: 100px; height: 60px; }
+  #img_sponsor_offer_120 { width: 120px; height: 60px; }
+  #img_sponsor_offer_88 { width: 88px; height: 31px; }
+  #img_sponsor_offer_border120 { border: 1px solid rgb(102, 102, 102); width: 120px; height: 60px; }
+}
+
+/* ::::: http://vortex.accuweather.com/adc2004/pub/css/2006/adc_promo.css ::::: */
+
+@media all {
+  #content_box_200body_commercial { border: 1px solid rgb(102, 102, 102); width: 203px; background-color: rgb(241, 240, 236); }
+  .content_box_200body_special { border: 1px solid rgb(102, 102, 102); margin-top: 10px; margin-bottom: 10px; width: 203px; background-color: rgb(255, 255, 255); }
+  #content_left200_video { margin-top: 10px; }
+  #content_left200_services { margin-top: 10px; }
+  #content_left200_commercial { margin-top: 10px; }
+  #content_left200_specialfeatures { margin-top: 10px; }
+  #content_box_300body_consumerlinks { padding: 5px 0px 5px 5px; width: 120px; height: 100%; float: left; }
+  #content_box_300body_consumerjoeb { margin: 0px; width: 165px; height: 100%; float: right; padding-left: 5px; background-color: rgb(222, 222, 219); }
+  #content_right300_consumer { margin-top: 10px; }
+  #content_box_300body_consumer { background-color: rgb(241, 240, 236); height: 210px; }
+  #content_box_prem_compmatrix { border: 1px solid rgb(102, 102, 102); margin: 20px 10px 10px; width: 630px; height: 625px; padding-top: 10px; background-color: rgb(255, 255, 255); }
+  #content_box_prem_innermatrix { border-right: thin dashed rgb(153, 153, 153); width: 208px; height: 30px; text-align: center; float: left; vertical-align: bottom; }
+  #content_box_prem_innermatrix_noborder { width: 208px; height: 30px; text-align: center; float: left; vertical-align: bottom; }
+  #content_box_200_videolauncher { display: block; height: 122px; }
+  #content_box_200body_videolauncher { background: rgb(241, 240, 236) url('video_launch_linkbg.jpg') repeat-x scroll left top; overflow: auto; height: 95px; }
+  #img_video_launcher { border-style: none; width: 205px; height: 122px; }
+  .videolink { border-style: solid; border-color: rgb(158, 158, 155); border-width: 1px 0px 0px; margin: 0px 0px 0px 2px; padding: 3px 0px; width: 170px; }
+  #videolinkfirst { border-style: none; }
+  .img_video_launcher_link { border-style: none; width: 11px; height: 7px; vertical-align: middle; }
+  .content_box_promoheading { padding: 5px; font-size: 12px; font-weight: bold; text-transform: uppercase; }
+  .content_box_promoheading_mixcase { padding: 5px; font-size: 12px; font-weight: bold; }
+  #content_box_headlines { overflow: auto; height: 150px; }
+  #content_box_rednavbtn_headlines { border-style: solid; border-color: rgb(255, 255, 255); border-width: 0px 1px 0px 0px; width: 97px; }
+  #content_box_bluenavbtn_headlines { width: 97px; }
+  .content_box_photocaption { width: 100%; font-style: italic; font-weight: normal; padding-top: 5px; text-align: center; }
+  #content_productbar_commercial { margin: 0px 0px 1px 2px; }
+  #button_rss { margin: 0px; width: 80px; height: 15px; }
+  #img_heading_video { width: 203px; height: 70px; }
+  #img_heading_commercial { width: 199px; height: 126px; }
+  .img_promopic_left { float: left; margin-right: 3px; }
+  .img_promopic_right { float: right; margin-left: 3px; }
+  .img_promopic_center { border: 0px solid rgb(0, 0, 0); display: block; width: 101px; height: 77px; margin-left: 45px; }
+  #img_promopic_kate { width: 78px; height: 78px; }
+  #img_promopic_wxevent { width: 78px; height: 78px; }
+  #img_promopic_joeb { width: 145px; height: 70px; display: block; margin-left: 5px; }
+  a.content_box_promolink:link, a.content_box_promolink:active, a.content_box_promolink:visited { margin: 5px; display: block; font-size: 11px; font-weight: bold; }
+  a.content_box_promolink:hover { color: rgb(234, 110, 0); }
+  a.content_box_promolinkinline:link, a.content_box_promolinkinline:active, a.content_box_promolinkinline:visited { font-size: 11px; }
+  a.content_box_promolinkinline:hover { color: rgb(234, 110, 0); }
+  a.content_video_link:link, a.content_video_link:active, a.content_video_link:visited, a.content_video_link:hover { padding: 5px 0px; font-size: 11px; font-weight: bold; margin-left: 5px; width: 150px; }
+  .partnerSignupHeader { border-bottom: 1px solid rgb(51, 102, 153); font-size: 26px; font-weight: bold; color: rgb(51, 102, 153); width: 620px; line-height: 30px; margin-bottom: 10px; font-family: Arial,Helvetica,Sans-Serif,Verdana; }
+  #partnerSignupText { font-size: 11px; padding-left: 15px; padding-right: 15px; margin-top: 10px; margin-bottom: 10px; }
+  .partnerSignupLink { border-style: none; padding-right: 20px; width: 155px; height: 36px; display: inline; }
+  .partnerAnchor { margin-right: 20px; }
+  #existpart { border-bottom: 1px dotted black; margin-top: 10px; text-align: center; margin-bottom: 10px; width: 620px; }
+  #partnerships { background-color: rgb(241, 240, 236); }
+  #bannerImage { border-style: none; width: 570px; height: 180px; margin-top: 5px; margin-bottom: 5px; display: block; }
+  #signupForm { width: 610px; margin-left: auto; margin-right: auto; text-align: center; }
+  #signupTnC { border: 1px solid rgb(0, 0, 0); overflow: auto; width: 550px; height: 250px; background-color: rgb(255, 255, 255); margin-bottom: 10px; margin-left: auto; margin-right: auto; text-align: center; }
+  .signupTerm { width: 520px; margin-left: 10px; margin-right: 10px; text-indent: 15px; text-align: left; margin-bottom: 10px; }
+  #premiumloginleft { border-right: thin dashed rgb(153, 153, 153); width: 328px; float: left; margin-top: 50px; text-align: center; }
+  #premiumloginright { width: 328px; float: left; margin-top: 50px; text-align: center; padding-top: 25px; }
+  #premiumdetailsleft { width: 415px; float: left; margin-top: 10px; padding-left: 5px; }
+  #premiumdetailsright { width: 220px; float: left; margin-top: 10px; padding-left: 5px; padding-right: 3px; }
+  #signupform { padding-bottom: 15px; float: left; text-align: left; }
+  #signupclear { clear: both; }
+  #premiumUpSaleBox { width: 435px; height: 50px; margin-top: 10px; }
+  #premiumUpSaleLeft { float: left; width: 54px; height: 50px; }
+  #premiumUpSaleLogo { border-style: none; width: 54px; height: 50px; }
+  #premiumUpSaleRight { padding: 5px; float: right; width: 371px; height: 40px; background-image: url('premium_background.jpg'); }
+  #preiumUpSaleText { font-family: arial,helvetica; font-size: 11px; line-height: 13px; }
+  #premiumUpSaleBox660 { width: 655px; height: 50px; margin-top: 10px; }
+  #premiumUpSaleLeft660 { float: left; width: 54px; height: 50px; }
+  #premiumUpSaleLogo660 { border-style: none; width: 54px; height: 50px; }
+  #premiumUpSaleRight660 { padding: 5px; float: left; width: 590px; height: 40px; background-image: url('premium_background_660.jpg'); }
+  #preiumUpSaleText660 { font-family: arial,helvetica; font-size: 11px; line-height: 13px; }
+  #netwxUpSaleBox { width: 435px; height: 50px; margin-top: 10px; }
+  #netwxUpSaleLeft { float: left; width: 54px; height: 50px; }
+  #netwxUpSaleLogo { border-style: none; width: 46px; height: 47px; }
+  #netwxUpSaleRight { padding: 5px; float: right; width: 371px; height: 40px; background-image: url('netwx_background.jpg'); }
+  #netwxUpSaleBox660 { width: 655px; height: 50px; margin-top: 10px; }
+  #netwxUpSaleLeft660 { float: left; width: 54px; height: 50px; }
+  #netwxUpSaleLogo660 { border-style: none; width: 46px; height: 47px; }
+  #netwxUpSaleRight660 { padding: 5px; float: left; width: 590px; height: 40px; background-image: url('netwx_background_660.jpg'); }
+  #wirelessUpSaleBox { width: 435px; height: 50px; margin-top: 10px; }
+  #wirelessUpSaleLeft { float: left; width: 22px; height: 50px; }
+  #wirelessUpSaleLogo { border-style: none; width: 22px; height: 50px; margin-left: 15px; }
+  #wirelessUpSaleRight { padding: 5px; float: right; width: 371px; height: 40px; background-image: url('wireless_background.gif'); }
+  #forensicsUpSaleBox { width: 435px; height: 50px; margin-top: 10px; }
+  #forensicsUpSaleLeft { float: left; width: 22px; height: 50px; }
+  #forensicsUpSaleLogo { border-style: none; width: 22px; height: 50px; margin-left: 15px; }
+  #forensicsUpSaleRight { padding: 5px; float: right; width: 371px; height: 40px; background-image: url('forensics_background.jpg'); }
+  #forensicsUpSaleRight660 { padding: 5px; float: left; width: 590px; height: 40px; background-image: url('forensics_background_660.jpg'); background-repeat: no-repeat; }
+  #forensicsUpSaleBox660 { width: 655px; height: 50px; margin-top: 10px; }
+  #forensicsUpSaleLeft660 { float: left; width: 54px; height: 50px; }
+  #forensicsUpSaleLogo660 { border-style: none; width: 46px; height: 47px; }
+  .wxportimg { border: 1px solid rgb(0, 0, 0); margin-bottom: 7px; height: 73px; width: 232px; }
+  .wxportleft { font-size: 11px; font-family: Arial,Helvetica,Verdana,Sans-Serif; float: left; width: 160px; text-align: left; margin-left: 5px; padding-top: 5px; padding-bottom: 5px; }
+  .wxportright { font-size: 11px; font-family: Arial,Helvetica,Verdana,Sans-Serif; float: right; width: 250px; text-align: center; padding-top: 5px; padding-bottom: 5px; }
+  #wxportPromoBox { background-color: rgb(243, 243, 241); text-align: center; }
+  #wxportpromo { margin-top: 5px; }
+  #PromoContentButton { border-style: none; width: 430px; height: 160px; }
+  #accuMallUpSaleBox { width: 435px; height: 50px; margin-top: 10px; }
+  #accuMallUpSaleLeft { float: left; width: 54px; height: 50px; }
+  #accuMallUpSaleLogo { border-style: none; width: 46px; height: 47px; }
+  #accuMallUpSaleRight { padding: 5px; float: right; width: 371px; height: 40px; background-image: url('accumall_promo_bg.jpg'); }
+}
+
+/* ::::: null ::::: */
+
+object { outline-color: -moz-use-text-color; outline-style: none; outline-width: medium; }
+
+/* ::::: null ::::: */
+
+#nav, #nav ul { margin: 0pt 0pt 1em; padding: 0pt; background: transparent none repeat scroll 0% 0%; float: left; list-style-type: none; list-style-image: none; list-style-position: outside; line-height: 1; font-weight: bold; }
+#nav a { padding: 0.25em 0.65em; display: block; color: rgb(255, 255, 255); text-decoration: none; font-size: 8pt; }
+#nav a.expand { background: transparent url('arrow_nav_right_001.gif') no-repeat scroll right center; }
+#nav li { padding: 0pt; float: left; text-align: center; }
+#nav li ul { margin: 0pt; background: rgb(213, 213, 213) none repeat scroll 0% 0%; position: absolute; left: -999em; height: auto; font-weight: normal; z-index: 99; }
+#nav li li { border-style: solid; border-color: rgb(211, 211, 211) rgb(187, 187, 187) rgb(187, 187, 187); border-width: 1px; text-align: left; text-indent: 5px; }
+#nav li ul a { padding: 1px 0px 3px; color: rgb(0, 0, 0); font-weight: bold; font-size: 8pt; line-height: 16px; }
+#nav li ul ul { margin: -1.9em 0pt 0pt 15.35em; }
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul { left: -999em; }
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul { left: auto; }
+#nav li:hover, #nav li.sfhover { background: rgb(145, 145, 145) none repeat scroll 0% 0%; }
+
+/* ::::: null ::::: */
+
+#bc_player3 { width: 300px; height: 540px; }
+#bc_RightRail_300x60 { display: none; margin-top: 3px; }
